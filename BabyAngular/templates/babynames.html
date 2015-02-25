@@ -1,0 +1,11 @@
+<div class="col-lg-4 col-lg-offset-4">
+
+    <h1>Babynames</h1>
+    <br /><br />
+
+    <div ng-repeat="babyname in babynames">
+        <h4><a href="/#/babyname/{{babyname.pk}}">{{babyname.name}}</a> <small>({{babyname.mockr_user}})</small></h4>
+        <hr />
+    </div>
+
+</div>

@@ -1,0 +1,10 @@
+<h1>{{babyname.name}}</h1>
+
+<p>Submitted by: {{$babyname.mockr_user.user}}</p>
+
+<h4 ng-if="{{babyname.mocks}}">Mocks:</h4>
+
+<ul>
+    <li ng-repeat="mock in babyname.mocks">{{mock.mock_text}}</li>
+    <li>Mock this baby name yourself!</li>
+</ul>
